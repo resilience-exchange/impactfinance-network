@@ -16,7 +16,7 @@
 :root { --hot: #7BD88F; --deep: #1F7A4A; }
 .legend { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 14px; font-family: var(--mo); font-size: 11.5px; color: var(--slate); }
 .legend i { display: inline-block; width: 11px; height: 11px; margin-right: 8px; vertical-align: -1px; }
-.wall li.gone a { text-decoration: line-through; text-decoration-color: var(--deep); text-decoration-thickness: 2px; border-bottom: 0; color: var(--slate); }
+.wall li.gone a, .wall li.gone .nm { text-decoration: line-through; text-decoration-color: var(--deep); text-decoration-thickness: 2px; border-bottom: 0; color: var(--slate); }
 .wall li.gone a:hover { color: var(--deep); }
 .wall-key { margin-top: 14px; font-family: var(--mo); font-size: 12px; color: var(--slate); }
 .wall-key s { text-decoration-color: var(--deep); text-decoration-thickness: 2px; }
@@ -294,7 +294,7 @@
       <div><p class="eb">07 · Impact Platforms</p><h2>Impact Platforms</h2></div>
       <p class="sub">The list of impact platforms below includes all platforms that formed part of this survey (marked with an *), as well as additional platforms collated by <a href="https://www.dfc.gov" style="border-bottom:1px solid var(--lav)" target="_blank" rel="noopener noreferrer">OPIC</a>. This is by no means a comprehensive list of impact finance platforms, but potentially represents one of the most detailed contemporary lists to be published in one location.</p>
     </div>
-    <p class="wall-key"><s>Struck through</s>: no longer operating; links go to an archived copy (2018).</p>
+    <p class="wall-key"><s>Struck through</s>: no longer operating. Where a link remains, it goes to an archived copy (2018).</p>
     <ul class="wall">
 <li class="gone"><a href="https://web.archive.org/web/2018/http://1bank4all.net/" target="_blank" rel="noopener noreferrer">1bank4all</a><span class="mark">*</span></li>
 <li>Access and eXchange for Impact Investment and Sustainability (AXiiS)</li>
@@ -322,15 +322,15 @@
 <li><a href="https://www.bidcp.com/" target="_blank" rel="noopener noreferrer">BiD Network</a><span class="mark">*</span></li>
 <li><a href="https://www.bigexchange.com/" target="_blank" rel="noopener noreferrer">Big Exchange</a><span class="mark">*</span></li>
 <li><a href="https://www.bigissue.com/invest/" target="_blank" rel="noopener noreferrer">Big Issue Invest</a></li>
-<li>Blueprints<span class="mark">*</span></li>
+<li class="gone"><span class="nm">Blueprints</span><span class="mark">*</span></li>
 <li class="gone"><a href="https://web.archive.org/web/2018/http://buzzbnk.org/" target="_blank" rel="noopener noreferrer">buzzbnk</a><span class="mark">*</span></li>
-<li>C-Change<span class="mark">*</span></li>
+<li class="gone"><span class="nm">C-Change</span><span class="mark">*</span></li>
 <li class="gone"><a href="https://web.archive.org/web/2018/http://cagix.com/" target="_blank" rel="noopener noreferrer">CAGIX</a><span class="mark">*</span></li>
 <li class="gone"><a href="https://web.archive.org/web/2018/http://cagix.com/" target="_blank" rel="noopener noreferrer">California Global Innovation Exchange (CAGIX)</a></li>
 <li><a href="https://calvertimpact.org/" target="_blank" rel="noopener noreferrer">Calvert</a><span class="mark">*</span></li>
 <li><a href="https://casefoundation.org/" target="_blank" rel="noopener noreferrer">Case Foundation</a><span class="mark">*</span></li>
 <li><a href="https://caspian.in/" target="_blank" rel="noopener noreferrer">Caspian Impact Investments</a></li>
-<li>Chroma Fund<span class="mark">*</span></li>
+<li><a href="https://chroma.fund/" target="_blank" rel="noopener noreferrer">Chroma Fund</a><span class="mark">*</span></li>
 <li><a href="https://confluencephilanthropy.org/" target="_blank" rel="noopener noreferrer">Confluence Philanthropy</a><span class="mark">*</span></li>
 <li class="gone"><a href="https://web.archive.org/web/2018/http://conveners.org/" target="_blank" rel="noopener noreferrer">Conveners.org</a><span class="mark">*</span></li>
 <li><a href="https://www.convergence.finance/" target="_blank" rel="noopener noreferrer">Convergence</a><span class="mark">*</span></li>
@@ -338,7 +338,7 @@
 <li><a href="https://www.creosyndicate.org/" target="_blank" rel="noopener noreferrer">CREO</a><span class="mark">*</span></li>
 <li><a href="https://www.creosyndicate.org/" target="_blank" rel="noopener noreferrer">Creo Syndicate</a></li>
 <li><a href="https://www.gofundme.com/c/crowdrise" target="_blank" rel="noopener noreferrer">CrowdRise</a><span class="mark">*</span></li>
-<li>Crowdworks<span class="mark">*</span></li>
+<li><a href="https://www.crowdworks.it/" target="_blank" rel="noopener noreferrer">Crowdworks</a><span class="mark">*</span></li>
 <li class="gone"><a href="https://web.archive.org/web/2018/http://dealmarket.com/" target="_blank" rel="noopener noreferrer">Deal Market</a><span class="mark">*</span></li>
 <li class="gone"><a href="https://web.archive.org/web/2018/http://delio.com/" target="_blank" rel="noopener noreferrer">Delio</a><span class="mark">*</span></li>
 <li><a href="https://www.dfat.gov.au/" target="_blank" rel="noopener noreferrer">DFAT Australia</a><span class="mark">*</span></li>
@@ -356,7 +356,7 @@
 <li><a href="https://fa-se.de/" target="_blank" rel="noopener noreferrer">Financing Agency for Social Entrepreneurs</a><span class="mark">*</span></li>
 <li><a href="https://www.fledge.co/" target="_blank" rel="noopener noreferrer">Fledge</a></li>
 <li>Flight Ventures<span class="mark">*</span></li>
-<li>Fundie Ventures<span class="mark">*</span></li>
+<li class="gone"><span class="nm">Fundie Ventures</span><span class="mark">*</span></li>
 <li><a href="https://www.gatesfoundation.org/" target="_blank" rel="noopener noreferrer">Gates Foundation</a></li>
 <li>GIIMAP</li>
 <li>GIINMAP<span class="mark">*</span></li>
@@ -411,7 +411,7 @@
 <li><a href="https://www.lumo-france.com/" target="_blank" rel="noopener noreferrer">Lumo</a><span class="mark">*</span></li>
 <li><a href="https://www.macfound.org/" target="_blank" rel="noopener noreferrer">MacArthur Foundation</a><span class="mark">*</span></li>
 <li><a href="https://www.marsdd.com/" target="_blank" rel="noopener noreferrer">MaRS Centre for Impact Investing</a><span class="mark">*</span></li>
-<li>Max Impact Ecosystems<span class="mark">*</span></li>
+<li><a href="https://www.maximpact.com/" target="_blank" rel="noopener noreferrer">Max Impact Ecosystems</a><span class="mark">*</span></li>
 <li class="gone"><a href="https://web.archive.org/web/2018/http://missionmarkets.com/" target="_blank" rel="noopener noreferrer">MissionMarkets</a><span class="mark">*</span></li>
 <li><a href="https://missioninvestors.org/" target="_blank" rel="noopener noreferrer">Misssion Investors Exchange</a><span class="mark">*</span></li>
 <li>Movement Capital<span class="mark">*</span></li>
